@@ -1,0 +1,35 @@
+.Header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.BtnShare {
+  display: flex;
+  align-items: center;
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+.ShareImg {
+  height: 24px;
+  width: 24px;
+  background: url('./assets/share.svg') 24px 24px;
+}
+.Label {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #D9615F;
+  margin-left: 4px;
+}
