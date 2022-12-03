@@ -1,0 +1,31 @@
+.Landing {
+  height: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+  background-color: #2F374B;
+}
+.Image {
+  width: 390px;
+  height: 360px;
+  background: url('../common/assets/landing.svg') 390px 360px;
+  margin-top: 124px;
+  margin-bottom: 48px;
+  background-color: #2F374B;
+  border: 0;
+}
+.ImageText {
+  width: 326px;
+  height: 56px;
+  background: url('../common/assets/landingText.svg') 326px 56px no-repeat; 
+  border: 0;
+  background-position: top;
+  background-color: #2F374B;
+}
+.Title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
