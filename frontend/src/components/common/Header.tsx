@@ -6,14 +6,15 @@ type HeaderType = {
   children: React.ReactNode;
 };
 
-export const Header = ({ children }: HeaderType) => {
+export const Header = ({ children, hasShareButton }: HeaderType) => {
   return (
     <header className={ style.Header }>
       <h1 className={ style.Title }>{children}</h1>
-      <button className={ style.BtnShare } onClick={ CopyUrlToClipboard }>
+      { hasShareButton &&  <button className={ style.BtnShare } onClick={ CopyUrlToClipboard }>
         <div className={ style.ShareImg }></div>
         <span className={ style.Label }>공유</span>
-      </button>
+      </button> }
+      
     </header>
   )
 };
