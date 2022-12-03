@@ -1,4 +1,5 @@
 import React from "react";
+import "./Button.scss";
 
 type buttonType = {
   children: React.ReactNode;
@@ -6,9 +7,13 @@ type buttonType = {
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
 };
 
-export const Button = ({ children, color = "blue", onClick }: buttonType) => {
+export const Button = ({
+  children,
+  color = "#A43A3A",
+  onClick,
+}: buttonType) => {
   return (
-    <button className={`${color}`} onClick={onClick}>
+    <button className={`Button ${color}`} onClick={onClick}>
       {children}
     </button>
   );
