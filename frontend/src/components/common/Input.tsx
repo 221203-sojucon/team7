@@ -1,12 +1,12 @@
 import React from 'react'
 import style from './Input.module.scss';
 
-type buttonType = {
+type InputType = {
   label: string;
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
 };
 
-export const Input = ({ label }: buttonType) => {
+export const Input = ({ label }: InputType) => {
   return (
     <div>
       <p className={ style.Label }>{ label }</p>
